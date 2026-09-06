@@ -8,7 +8,7 @@ import aiosqlite
 # إعدادات البوت (التوكن الجديد مدمج هنا)
 API_ID = 2040  
 API_HASH = "b18441a1ff607e10a989891a5462e627"  
-B
+
 BOT_TOKEN = os.getenv("BOT_TOKEN", "1000915223:AAGYrepDPCxDSe2QuzF5wz9G2iQhzZyahWU")
 
 ADMIN_ID = 342845021  # استبدل هذا برقم الآي دي الخاص بك (Telegram ID) لتكون مديراً للبوت
