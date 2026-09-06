@@ -8,13 +8,13 @@ import aiosqlite
 # إعدادات البوت (التوكن الجديد مدمج هنا)
 API_ID = 2040  
 API_HASH = "b18441a1ff607e10a989891a5462e627"  
-BOT_TOKEN = "1000915223:AAGbziy14tluFKTzCWb2eMrx9REnDHenwJ0"  
+BOT_TOKEN = 
 ADMIN_ID = 342845021  # استبدل هذا برقم الآي دي الخاص بك (Telegram ID) لتكون مديراً للبوت
 
 logging.basicConfig(level=logging.INFO)
 
 app = Client("media_bot_2", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
-
+BOT_TOKEN = os.getenv("BOT_TOKEN", "1000915223:AAGYrepDPCxDSe2QuzF5wz9G2iQhzZyahWU")
 DB_NAME = "bot_database.db"
 
 async def init_db():
